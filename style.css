@@ -1,0 +1,41 @@
+/** 
+ * Stylesheet for TwistieNav plugin
+ *
+ * @author Håkan Sandell <sandell.hakan@gmail.com>
+ */
+
+.dokuwiki div.breadcrumbs span.twistienav_twistie {
+  background: transparent url(tw_right.png) 0px 0px no-repeat;
+  margin: 0px 4px;
+  padding: 0px 8px;
+}
+
+.dokuwiki div.breadcrumbs span.twistienav_twistie.twistienav_down {
+  background: transparent url(tw_down.png) 0px 0px no-repeat;
+}
+
+div#twistienav__popup {
+  background-color: #eef;
+  color: #000;
+  z-index: 20;
+  overflow: hidden;
+  opacity: 0.95;
+  border: 1px solid __border__;
+  background-color: __background_other__;
+  text-align: left;
+  padding: 0.2em;
+}
+
+div#twistienav__popup ul {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+div#twistienav__popup ul li {
+  margin-left: 0px;
+  list-style: none;
+} 
+
+div#twistienav__popup ul li a.twistienav_ns {
+  font-weight: bold;
+}

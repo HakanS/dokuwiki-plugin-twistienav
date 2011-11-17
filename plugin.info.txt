@@ -1,0 +1,7 @@
+base   twistienav
+author Håkan Sandell
+email  sandell.hakan@gmail.com
+date   2011-10-25
+name   TwistieNav plugin
+desc   Adds drop-down navigation menus to 'you are here' breadcrumbs
+url    http://www.dokuwiki.org/plugin:twistienav
